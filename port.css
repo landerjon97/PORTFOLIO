@@ -1,0 +1,114 @@
+#back1 {
+background:url('picPort1.jpg') -25px -50px;
+position:fixed ;
+top:0;
+width:100%;
+z-index:0;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
+#back2 {
+background:url('picPort2.jpg') -25px -50px;
+position:fixed ;
+top:0;
+width:100%;
+z-index:0;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
+#back3 {
+background:url('picPort3.jpg') -25px -50px;
+position:fixed ;
+top:0;
+width:100%;
+z-index:0;
+  height:100%;
+  background-size: calc(100% + 50px);
+}
+
+.nav{
+    float:left;
+    display: block;
+}
+a{
+    background-color: black;
+    display: block;
+    padding: 10px;
+    opacity: .75;
+    color:white;
+    box-shadow: black;
+    text-decoration: none;
+    transition: .2s;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    opacity: .8;
+    color: white;
+    margin:auto;
+    width: 15%;
+}
+.main{
+    background-color: black;
+    opacity: .8;
+    color:white;
+    margin:auto;
+    width:50%;
+    font-size: 20px;
+}
+stuff{
+    float:left;
+}
+a:hover{
+    background-color: red;
+    opacity: .75;
+    padding-left:50px;
+    transition:.2s;
+}
+.art{
+    position: relative;
+    float:right;
+    display:block;
+    width:15%;
+    margin-right:5%;
+    margin-bottom: 10%;
+    color: white;
+}
+.header{
+    display: block;
+    float:right;
+    background-color: black;
+    opacity: .8;
+    padding: 10px, 10px;
+    
+}
+.img1, .img2{
+    position: relative;
+    display: block;
+    background-color: black;
+    padding: 5px;
+    width:80%;
+    height: auto;
+    float:right;
+    transition: .2s
+}
+
+.img3, .img4{
+    position: relative;
+    right:0;
+    bottom:0;
+    display: block;
+    background-color: black;
+    padding: 5px;
+    width:80%;
+    
+    float:right;
+    transition: .2s
+}
+
+img:hover{
+    z-index: 1;
+    width:300%;
+    height:auto;
+    transition: .2s;
+}
