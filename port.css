@@ -105,7 +105,7 @@ a:hover{
     transition: .2s
 }
 
-img:hover{
+.img1:hover, .img2:hover, .img3:hover, .img4:hover{
     z-index: 1;
     width:200%;
     height:auto;
