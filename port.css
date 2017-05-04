@@ -86,7 +86,7 @@ a:hover{
     display: block;
     background-color: black;
     padding: 5px;
-    width:80%;
+    width:60%;
     height: auto;
     float:right;
     transition: .2s
@@ -99,7 +99,7 @@ a:hover{
     display: block;
     background-color: black;
     padding: 5px;
-    width:80%;
+    width:60%;
     
     float:right;
     transition: .2s
@@ -107,7 +107,7 @@ a:hover{
 
 img:hover{
     z-index: 1;
-    width:300%;
+    width:200%;
     height:auto;
     transition: .2s;
 }
