@@ -86,12 +86,14 @@ a:hover{
     float:right;
     display:block;
     width:15%;
+    margin-top:15%;
     margin-right:5%;
     color: white;
-
 }
 .proPic{
-    position: relative;
+    position: absolute;
+    bottom:0;
+    right:0;
     display: block;
     background-color: black;
     padding: 5px;
@@ -137,4 +139,14 @@ img:hover{
     width:200%;
     height:auto;
     transition: .2s;
+}
+
+.firstPage{
+    background-color: black;
+    opacity: .8;
+    color:white;
+    margin:auto;
+    width:50%;
+    font-size: 30px;
+    line-height: 200%;
 }
