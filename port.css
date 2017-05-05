@@ -51,7 +51,7 @@ z-index:0;
     padding: 20px;
     background-color: black;
     margin-top:15%;
-    opacity: .8;
+    opacity: .6;
     color:white;
     float:left;
     display: block;
@@ -63,23 +63,25 @@ a{
     background-color: black;
     display: block;
     padding: 10px;
-    opacity: .75;
+    opacity: .6;
     color:white;
     box-shadow: black;
     text-decoration: none;
     transition: .2s;
 }
 h1{
+    padding: 20px;
     text-align: center;
     background-color: black;
-    opacity: .8;
+    opacity: .6;
     color: white;
     margin:auto;
     width: 15%;
 }
 .main{
     background-color: black;
-    opacity: .8;
+    padding: 10px;
+    opacity: .6;
     color:white;
     margin:auto;
     width:50%;
@@ -90,7 +92,7 @@ stuff{
 }
 a:hover{
     background-color: red;
-    opacity: .75;
+    opacity: .6;
     padding-left:50px;
     transition:.2s;
 }
@@ -106,7 +108,7 @@ a:hover{
     display: block;
     float:right;
     background-color: black;
-    opacity: .8;
+    opacity: .6;
     padding: 10px, 10px;
     
 }
@@ -132,6 +134,7 @@ a:hover{
     transition: .2s
 }
 .resumeMain{
+    
     position: relative;
     display:block;
     width:50%;
@@ -153,6 +156,7 @@ a:hover{
     width: 80%;
 }
 .right{
+    
     z-index: 0;
     background-color: black;
     position: absolute;
@@ -160,8 +164,9 @@ a:hover{
     margin-left: 50%;
 }
 .proj{
+    
     background-color: black;
-    opacity: .8;
+    opacity: .6;
     position: relative;
     display:block;
     width:50%;
@@ -225,8 +230,9 @@ img:hover{
 }
 
 .firstPage{
+    padding: 20px;
     background-color: black;
-    opacity: .8;
+    opacity: .6;
     color:white;
     margin:auto;
     width:50%;
