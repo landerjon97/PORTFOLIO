@@ -81,6 +81,34 @@ a:hover{
     padding: 10px, 10px;
     
 }
+.profilePic{
+    position: relative;
+    float:right;
+    display:block;
+    width:15%;
+    margin-right:5%;
+    color: white;
+
+}
+.proPic{
+    position: relative;
+    display: block;
+    background-color: black;
+    padding: 5px;
+    width:60%;
+    height: auto;
+    float:right;
+    transition: .2s
+}
+.resumeMain{
+    background-color: black;
+    opacity: .8;
+    color:white;
+    margin:auto;
+    width:30px;
+    font-size: 20px;
+}
+
 .img1, .img2{
     position: relative;
     display: block;
@@ -104,8 +132,7 @@ a:hover{
     float:right;
     transition: .2s
 }
-
-.img1:hover, .img2:hover, .img3:hover, .img4:hover{
+img:hover{
     z-index: 1;
     width:200%;
     height:auto;
